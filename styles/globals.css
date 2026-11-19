@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-animation {
+    background: linear-gradient(90deg, #667eea, #764ba2, #6b8dd6, #8e37d7);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+
+/* styles/global.css */
+.team-member {
+    /* width: calc(20% - 1rem); */
+  }
+  
+  .team-member .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(163,105,158,0.5), rgba(122,160,225,0.9));
+    opacity: 0;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    border-radius: 0.5rem; /* Make it rounded like the image */
+  }
+  
+  .team-member:hover .overlay {
+    opacity: 1;
+  }
+  
+  .team-member .name {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .team-member:hover .name {
+    opacity: 1;
+  }
+  
+  .team-member .title {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .transition-max-height {
+    transition: max-height 0.2s ease-in-out;
+  }
+  /* Additional CSS for hover effect */
+/* Additional CSS for a more pronounced hover effect */
+.pricing-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); /* This will add a deeper shadow effect */
+    transform: scale(1.1); /* Slightly scale up the card */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+    opacity: 100;
+}
+.swiper-button-prev-custom, .swiper-button-next-custom {
+    background-color: #ffffff; /* Orange background */
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 9999px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .swiper-button-prev-custom {
+    left: 0px; /* Place on the left side */
+  }
+  
+  .swiper-button-next-custom {
+    right: 0px; /* Place on the right side */
+  }
+  .iconGradient {
+    color: transparent;
+    background: linear-gradient(45deg, #A3699E, #7AA0E1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

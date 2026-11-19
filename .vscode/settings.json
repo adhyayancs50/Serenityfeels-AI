@@ -1,0 +1,5 @@
+{
+  "jdk.serverVmOptions": [
+    "-Dproject.forbiddenFolders=${workspaceFolder}/android;${workspaceFolder}/android/app;${workspaceFolder}/node_modules/@capacitor/android/capacitor"
+  ]
+}

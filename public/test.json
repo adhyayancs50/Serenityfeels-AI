@@ -1,0 +1,125 @@
+{
+    "history": [
+      {
+        "id": "ab736096-693e-465b-a0c5-92ca682a6ceb",
+        "type":"Physics Explainer",
+        "name": "Physics Explainer",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": null
+      },
+      {
+        "id": "32e6455e-ee33-43fa-89f9-c30d5dd5ec6a",
+        "name": "Physics Markscheme",
+        "type":"Physics Markscheme",
+
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": null
+      },
+      {
+        "id": "0cb98ef2-3aa8-47ac-a7bd-09ab0e0bc066",
+        "type":"CS Explainer",
+        "name": "CS Explainer",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "7ec6eb3c-9b3f-48d6-8f04-2af782fd9b49",
+        "type":"CS Markscheme",
+        "name": "CS Markscheme",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "f3d4a31e-c71c-4f21-8f92-2d2f03522391",
+        "type":"Chemistry Markscheme",
+        "name": "Chemistry Markscheme",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "752822ce-013e-4653-b4e9-24cf65614c09",
+        "type":"Chemistry Explainer",
+        "name": "Chemistry Explainer",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "62406536-07fd-4bef-af48-f4934f0ba4c4",
+        "type":"Biology Explainer",
+        "name": "Biology Explainer",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "b6de60bc-08cc-48cb-9373-0a360e8dccc6",
+        "type":"Biology Markscheme",
+        "name": "Biology Markscheme",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "a5503349-08c9-4b9d-bc1c-d8762911dc0c",
+        "type":"Economics Markscheme",
+        "name": "Economics Markscheme",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      },
+      {
+        "id": "e51fc20d-9461-42d4-979c-daafb18b8f72",
+        "type":"Economics Explainer",
+        "name": "Economics Explainer",
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "Hello Serenite! How can I assist you today?"
+          }
+        ],
+        "folderId": "2ab2cba3-123b-48d0-9440-7f54c9f9e2f4"
+      }
+    ]
+  }
